@@ -1,0 +1,1757 @@
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 1188
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 4F       		.byte	79
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 01       		.byte	1
+  34 0005 52       		.byte	82
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 01       		.byte	1
+  38 0009 64       		.byte	100
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 03       		.byte	3
+  42 000d 65       		.byte	101
+  43 000e 00       		.byte	0
+  44 000f 40       		.byte	64
+  45 0010 04       		.byte	4
+  46 0011 06       		.byte	6
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 02       		.byte	2
+  50 0015 07       		.byte	7
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 56       		.byte	86
+  54 0019 08       		.byte	8
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 33       		.byte	51
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 2
+
+
+  58 001d 09       		.byte	9
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 01       		.byte	1
+  62 0021 15       		.byte	21
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 01       		.byte	1
+  66 0025 17       		.byte	23
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 46       		.byte	70
+  70 0029 18       		.byte	24
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 43       		.byte	67
+  74 002d 19       		.byte	25
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 65       		.byte	101
+  78 0031 1A       		.byte	26
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 4F       		.byte	79
+  82 0035 1B       		.byte	27
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 02       		.byte	2
+  86 0039 40       		.byte	64
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 03       		.byte	3
+  90 003d 41       		.byte	65
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 03       		.byte	3
+  94 0041 42       		.byte	66
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 05       		.byte	5
+  98 0045 43       		.byte	67
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 02       		.byte	2
+ 102 0049 45       		.byte	69
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 01       		.byte	1
+ 106 004d 46       		.byte	70
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 01       		.byte	1
+ 110 0051 47       		.byte	71
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 03       		.byte	3
+ 114 0055 48       		.byte	72
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 3
+
+
+ 115 0056 01       		.byte	1
+ 116 0057 40       		.byte	64
+ 117 0058 05       		.byte	5
+ 118 0059 49       		.byte	73
+ 119 005a 01       		.byte	1
+ 120 005b 40       		.byte	64
+ 121 005c 04       		.byte	4
+ 122 005d 4C       		.byte	76
+ 123 005e 01       		.byte	1
+ 124 005f 40       		.byte	64
+ 125 0060 08       		.byte	8
+ 126 0061 4D       		.byte	77
+ 127 0062 01       		.byte	1
+ 128 0063 40       		.byte	64
+ 129 0064 04       		.byte	4
+ 130 0065 50       		.byte	80
+ 131 0066 01       		.byte	1
+ 132 0067 40       		.byte	64
+ 133 0068 01       		.byte	1
+ 134 0069 51       		.byte	81
+ 135 006a 01       		.byte	1
+ 136 006b 40       		.byte	64
+ 137 006c 01       		.byte	1
+ 138 006d 80       		.byte	-128
+ 139 006e 0A       		.byte	10
+ 140 006f 27       		.byte	39
+ 141 0070 00       		.byte	0
+ 142 0071 01       		.byte	1
+ 143 0072 88       		.byte	-120
+ 144 0073 0F       		.byte	15
+ 145 0074 88       		.byte	-120
+ 146 0075 38       		.byte	56
+ 147 0076 89       		.byte	-119
+ 148 0077 72       		.byte	114
+ 149 0078 8B       		.byte	-117
+ 150 0079 0F       		.byte	15
+ 151 007a B8       		.byte	-72
+ 152 007b 02       		.byte	2
+ 153 007c BE       		.byte	-66
+ 154 007d 01       		.byte	1
+ 155 007e D8       		.byte	-40
+ 156 007f 04       		.byte	4
+ 157 0080 DF       		.byte	-33
+ 158 0081 01       		.byte	1
+ 159 0082 1A       		.byte	26
+ 160 0083 80       		.byte	-128
+ 161 0084 82       		.byte	-126
+ 162 0085 40       		.byte	64
+ 163 0086 17       		.byte	23
+ 164 0087 03       		.byte	3
+ 165 0088 1A       		.byte	26
+ 166 0089 05       		.byte	5
+ 167 008a 1B       		.byte	27
+ 168 008b 04       		.byte	4
+ 169 008c 1D       		.byte	29
+ 170 008d 01       		.byte	1
+ 171 008e 1E       		.byte	30
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 4
+
+
+ 172 008f 03       		.byte	3
+ 173 0090 21       		.byte	33
+ 174 0091 08       		.byte	8
+ 175 0092 25       		.byte	37
+ 176 0093 04       		.byte	4
+ 177 0094 2A       		.byte	42
+ 178 0095 02       		.byte	2
+ 179 0096 30       		.byte	48
+ 180 0097 01       		.byte	1
+ 181 0098 31       		.byte	49
+ 182 0099 01       		.byte	1
+ 183 009a 32       		.byte	50
+ 184 009b 02       		.byte	2
+ 185 009c 33       		.byte	51
+ 186 009d 04       		.byte	4
+ 187 009e 34       		.byte	52
+ 188 009f 04       		.byte	4
+ 189 00a0 35       		.byte	53
+ 190 00a1 08       		.byte	8
+ 191 00a2 37       		.byte	55
+ 192 00a3 02       		.byte	2
+ 193 00a4 3F       		.byte	63
+ 194 00a5 10       		.byte	16
+ 195 00a6 40       		.byte	64
+ 196 00a7 24       		.byte	36
+ 197 00a8 41       		.byte	65
+ 198 00a9 06       		.byte	6
+ 199 00aa 45       		.byte	69
+ 200 00ab E0       		.byte	-32
+ 201 00ac 46       		.byte	70
+ 202 00ad C0       		.byte	-64
+ 203 00ae 47       		.byte	71
+ 204 00af 0B       		.byte	11
+ 205 00b0 48       		.byte	72
+ 206 00b1 1A       		.byte	26
+ 207 00b2 49       		.byte	73
+ 208 00b3 FF       		.byte	-1
+ 209 00b4 4A       		.byte	74
+ 210 00b5 FF       		.byte	-1
+ 211 00b6 4B       		.byte	75
+ 212 00b7 FF       		.byte	-1
+ 213 00b8 4E       		.byte	78
+ 214 00b9 F0       		.byte	-16
+ 215 00ba 4F       		.byte	79
+ 216 00bb 44       		.byte	68
+ 217 00bc 50       		.byte	80
+ 218 00bd 0C       		.byte	12
+ 219 00be 54       		.byte	84
+ 220 00bf 07       		.byte	7
+ 221 00c0 58       		.byte	88
+ 222 00c1 04       		.byte	4
+ 223 00c2 59       		.byte	89
+ 224 00c3 04       		.byte	4
+ 225 00c4 5A       		.byte	90
+ 226 00c5 04       		.byte	4
+ 227 00c6 5B       		.byte	91
+ 228 00c7 04       		.byte	4
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 5
+
+
+ 229 00c8 5D       		.byte	93
+ 230 00c9 01       		.byte	1
+ 231 00ca 5F       		.byte	95
+ 232 00cb 01       		.byte	1
+ 233 00cc 66       		.byte	102
+ 234 00cd C0       		.byte	-64
+ 235 00ce 6A       		.byte	106
+ 236 00cf 40       		.byte	64
+ 237 00d0 6B       		.byte	107
+ 238 00d1 02       		.byte	2
+ 239 00d2 83       		.byte	-125
+ 240 00d3 08       		.byte	8
+ 241 00d4 85       		.byte	-123
+ 242 00d5 03       		.byte	3
+ 243 00d6 89       		.byte	-119
+ 244 00d7 03       		.byte	3
+ 245 00d8 8E       		.byte	-114
+ 246 00d9 02       		.byte	2
+ 247 00da 92       		.byte	-110
+ 248 00db 01       		.byte	1
+ 249 00dc 97       		.byte	-105
+ 250 00dd 04       		.byte	4
+ 251 00de 9D       		.byte	-99
+ 252 00df 02       		.byte	2
+ 253 00e0 9E       		.byte	-98
+ 254 00e1 02       		.byte	2
+ 255 00e2 9F       		.byte	-97
+ 256 00e3 01       		.byte	1
+ 257 00e4 A1       		.byte	-95
+ 258 00e5 01       		.byte	1
+ 259 00e6 A3       		.byte	-93
+ 260 00e7 02       		.byte	2
+ 261 00e8 AB       		.byte	-85
+ 262 00e9 04       		.byte	4
+ 263 00ea AF       		.byte	-81
+ 264 00eb 08       		.byte	8
+ 265 00ec B0       		.byte	-80
+ 266 00ed 01       		.byte	1
+ 267 00ee B1       		.byte	-79
+ 268 00ef 04       		.byte	4
+ 269 00f0 B5       		.byte	-75
+ 270 00f1 08       		.byte	8
+ 271 00f2 B6       		.byte	-74
+ 272 00f3 02       		.byte	2
+ 273 00f4 B7       		.byte	-73
+ 274 00f5 03       		.byte	3
+ 275 00f6 BB       		.byte	-69
+ 276 00f7 08       		.byte	8
+ 277 00f8 BE       		.byte	-66
+ 278 00f9 40       		.byte	64
+ 279 00fa BF       		.byte	-65
+ 280 00fb 11       		.byte	17
+ 281 00fc C0       		.byte	-64
+ 282 00fd 10       		.byte	16
+ 283 00fe C1       		.byte	-63
+ 284 00ff 04       		.byte	4
+ 285 0100 C5       		.byte	-59
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 6
+
+
+ 286 0101 D5       		.byte	-43
+ 287 0102 C7       		.byte	-57
+ 288 0103 21       		.byte	33
+ 289 0104 C8       		.byte	-56
+ 290 0105 33       		.byte	51
+ 291 0106 C9       		.byte	-55
+ 292 0107 FF       		.byte	-1
+ 293 0108 CA       		.byte	-54
+ 294 0109 FF       		.byte	-1
+ 295 010a CB       		.byte	-53
+ 296 010b FF       		.byte	-1
+ 297 010c CD       		.byte	-51
+ 298 010d A0       		.byte	-96
+ 299 010e CF       		.byte	-49
+ 300 010f 04       		.byte	4
+ 301 0110 D0       		.byte	-48
+ 302 0111 18       		.byte	24
+ 303 0112 D2       		.byte	-46
+ 304 0113 80       		.byte	-128
+ 305 0114 D8       		.byte	-40
+ 306 0115 04       		.byte	4
+ 307 0116 D9       		.byte	-39
+ 308 0117 04       		.byte	4
+ 309 0118 DA       		.byte	-38
+ 310 0119 04       		.byte	4
+ 311 011a DB       		.byte	-37
+ 312 011b 04       		.byte	4
+ 313 011c DC       		.byte	-36
+ 314 011d 10       		.byte	16
+ 315 011e DF       		.byte	-33
+ 316 011f 01       		.byte	1
+ 317 0120 E0       		.byte	-32
+ 318 0121 40       		.byte	64
+ 319 0122 E2       		.byte	-30
+ 320 0123 C0       		.byte	-64
+ 321 0124 E4       		.byte	-28
+ 322 0125 40       		.byte	64
+ 323 0126 E5       		.byte	-27
+ 324 0127 40       		.byte	64
+ 325 0128 E6       		.byte	-26
+ 326 0129 C0       		.byte	-64
+ 327 012a E8       		.byte	-24
+ 328 012b C0       		.byte	-64
+ 329 012c EA       		.byte	-22
+ 330 012d C0       		.byte	-64
+ 331 012e EC       		.byte	-20
+ 332 012f C0       		.byte	-64
+ 333 0130 EE       		.byte	-18
+ 334 0131 C0       		.byte	-64
+ 335 0132 00       		.byte	0
+ 336 0133 80       		.byte	-128
+ 337 0134 0A       		.byte	10
+ 338 0135 41       		.byte	65
+ 339 0136 0C       		.byte	12
+ 340 0137 20       		.byte	32
+ 341 0138 0F       		.byte	15
+ 342 0139 02       		.byte	2
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 7
+
+
+ 343 013a 16       		.byte	22
+ 344 013b 04       		.byte	4
+ 345 013c 19       		.byte	25
+ 346 013d 80       		.byte	-128
+ 347 013e 1B       		.byte	27
+ 348 013f 01       		.byte	1
+ 349 0140 1D       		.byte	29
+ 350 0141 01       		.byte	1
+ 351 0142 1F       		.byte	31
+ 352 0143 24       		.byte	36
+ 353 0144 21       		.byte	33
+ 354 0145 08       		.byte	8
+ 355 0146 22       		.byte	34
+ 356 0147 42       		.byte	66
+ 357 0148 23       		.byte	35
+ 358 0149 04       		.byte	4
+ 359 014a 24       		.byte	36
+ 360 014b 50       		.byte	80
+ 361 014c 26       		.byte	38
+ 362 014d 80       		.byte	-128
+ 363 014e 27       		.byte	39
+ 364 014f 08       		.byte	8
+ 365 0150 28       		.byte	40
+ 366 0151 02       		.byte	2
+ 367 0152 2A       		.byte	42
+ 368 0153 12       		.byte	18
+ 369 0154 2B       		.byte	43
+ 370 0155 01       		.byte	1
+ 371 0156 2C       		.byte	44
+ 372 0157 80       		.byte	-128
+ 373 0158 2F       		.byte	47
+ 374 0159 20       		.byte	32
+ 375 015a 31       		.byte	49
+ 376 015b 04       		.byte	4
+ 377 015c 32       		.byte	50
+ 378 015d 40       		.byte	64
+ 379 015e 36       		.byte	54
+ 380 015f 98       		.byte	-104
+ 381 0160 38       		.byte	56
+ 382 0161 02       		.byte	2
+ 383 0162 39       		.byte	57
+ 384 0163 14       		.byte	20
+ 385 0164 40       		.byte	64
+ 386 0165 02       		.byte	2
+ 387 0166 41       		.byte	65
+ 388 0167 01       		.byte	1
+ 389 0168 45       		.byte	69
+ 390 0169 01       		.byte	1
+ 391 016a 46       		.byte	70
+ 392 016b 08       		.byte	8
+ 393 016c 48       		.byte	72
+ 394 016d 20       		.byte	32
+ 395 016e 49       		.byte	73
+ 396 016f 02       		.byte	2
+ 397 0170 4A       		.byte	74
+ 398 0171 10       		.byte	16
+ 399 0172 4C       		.byte	76
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 8
+
+
+ 400 0173 80       		.byte	-128
+ 401 0174 4D       		.byte	77
+ 402 0175 21       		.byte	33
+ 403 0176 50       		.byte	80
+ 404 0177 01       		.byte	1
+ 405 0178 51       		.byte	81
+ 406 0179 01       		.byte	1
+ 407 017a 52       		.byte	82
+ 408 017b 0C       		.byte	12
+ 409 017c 57       		.byte	87
+ 410 017d 18       		.byte	24
+ 411 017e 5C       		.byte	92
+ 412 017f 50       		.byte	80
+ 413 0180 5D       		.byte	93
+ 414 0181 02       		.byte	2
+ 415 0182 5F       		.byte	95
+ 416 0183 04       		.byte	4
+ 417 0184 72       		.byte	114
+ 418 0185 40       		.byte	64
+ 419 0186 C0       		.byte	-64
+ 420 0187 01       		.byte	1
+ 421 0188 C2       		.byte	-62
+ 422 0189 C9       		.byte	-55
+ 423 018a C4       		.byte	-60
+ 424 018b 40       		.byte	64
+ 425 018c CA       		.byte	-54
+ 426 018d CD       		.byte	-51
+ 427 018e CC       		.byte	-52
+ 428 018f 7A       		.byte	122
+ 429 0190 CE       		.byte	-50
+ 430 0191 07       		.byte	7
+ 431 0192 D0       		.byte	-48
+ 432 0193 A9       		.byte	-87
+ 433 0194 D2       		.byte	-46
+ 434 0195 20       		.byte	32
+ 435 0196 D6       		.byte	-42
+ 436 0197 F0       		.byte	-16
+ 437 0198 EE       		.byte	-18
+ 438 0199 08       		.byte	8
+ 439 019a E6       		.byte	-26
+ 440 019b 08       		.byte	8
+ 441 019c 05       		.byte	5
+ 442 019d 10       		.byte	16
+ 443 019e 07       		.byte	7
+ 444 019f 0C       		.byte	12
+ 445 01a0 08       		.byte	8
+ 446 01a1 01       		.byte	1
+ 447 01a2 0D       		.byte	13
+ 448 01a3 10       		.byte	16
+ 449 01a4 11       		.byte	17
+ 450 01a5 09       		.byte	9
+ 451 01a6 12       		.byte	18
+ 452 01a7 01       		.byte	1
+ 453 01a8 13       		.byte	19
+ 454 01a9 10       		.byte	16
+ 455 01aa 19       		.byte	25
+ 456 01ab 0C       		.byte	12
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 9
+
+
+ 457 01ac 1B       		.byte	27
+ 458 01ad 11       		.byte	17
+ 459 01ae 1C       		.byte	28
+ 460 01af 02       		.byte	2
+ 461 01b0 1F       		.byte	31
+ 462 01b1 03       		.byte	3
+ 463 01b2 28       		.byte	40
+ 464 01b3 01       		.byte	1
+ 465 01b4 29       		.byte	41
+ 466 01b5 14       		.byte	20
+ 467 01b6 2D       		.byte	45
+ 468 01b7 1C       		.byte	28
+ 469 01b8 2F       		.byte	47
+ 470 01b9 02       		.byte	2
+ 471 01ba 31       		.byte	49
+ 472 01bb 1F       		.byte	31
+ 473 01bc 36       		.byte	54
+ 474 01bd 03       		.byte	3
+ 475 01be 38       		.byte	56
+ 476 01bf 80       		.byte	-128
+ 477 01c0 54       		.byte	84
+ 478 01c1 18       		.byte	24
+ 479 01c2 58       		.byte	88
+ 480 01c3 04       		.byte	4
+ 481 01c4 59       		.byte	89
+ 482 01c5 04       		.byte	4
+ 483 01c6 5B       		.byte	91
+ 484 01c7 04       		.byte	4
+ 485 01c8 5C       		.byte	92
+ 486 01c9 11       		.byte	17
+ 487 01ca 5D       		.byte	93
+ 488 01cb 10       		.byte	16
+ 489 01cc 5F       		.byte	95
+ 490 01cd 01       		.byte	1
+ 491 01ce 81       		.byte	-127
+ 492 01cf 04       		.byte	4
+ 493 01d0 84       		.byte	-124
+ 494 01d1 73       		.byte	115
+ 495 01d2 86       		.byte	-122
+ 496 01d3 0C       		.byte	12
+ 497 01d4 87       		.byte	-121
+ 498 01d5 04       		.byte	4
+ 499 01d6 88       		.byte	-120
+ 500 01d7 3C       		.byte	60
+ 501 01d8 89       		.byte	-119
+ 502 01d9 18       		.byte	24
+ 503 01da 8A       		.byte	-118
+ 504 01db 43       		.byte	67
+ 505 01dc 8E       		.byte	-114
+ 506 01dd 23       		.byte	35
+ 507 01de 90       		.byte	-112
+ 508 01df 02       		.byte	2
+ 509 01e0 94       		.byte	-108
+ 510 01e1 7F       		.byte	127
+ 511 01e2 95       		.byte	-107
+ 512 01e3 3F       		.byte	63
+ 513 01e4 98       		.byte	-104
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 10
+
+
+ 514 01e5 01       		.byte	1
+ 515 01e6 99       		.byte	-103
+ 516 01e7 08       		.byte	8
+ 517 01e8 9C       		.byte	-100
+ 518 01e9 1F       		.byte	31
+ 519 01ea 9D       		.byte	-99
+ 520 01eb 10       		.byte	16
+ 521 01ec 9E       		.byte	-98
+ 522 01ed 60       		.byte	96
+ 523 01ee A0       		.byte	-96
+ 524 01ef 08       		.byte	8
+ 525 01f0 A1       		.byte	-95
+ 526 01f1 1C       		.byte	28
+ 527 01f2 A3       		.byte	-93
+ 528 01f3 21       		.byte	33
+ 529 01f4 A4       		.byte	-92
+ 530 01f5 04       		.byte	4
+ 531 01f6 A5       		.byte	-91
+ 532 01f7 1C       		.byte	28
+ 533 01f8 A7       		.byte	-89
+ 534 01f9 22       		.byte	34
+ 535 01fa A8       		.byte	-88
+ 536 01fb 0C       		.byte	12
+ 537 01fc A9       		.byte	-87
+ 538 01fd 27       		.byte	39
+ 539 01fe AB       		.byte	-85
+ 540 01ff 18       		.byte	24
+ 541 0200 AC       		.byte	-84
+ 542 0201 03       		.byte	3
+ 543 0202 AF       		.byte	-81
+ 544 0203 23       		.byte	35
+ 545 0204 B0       		.byte	-80
+ 546 0205 10       		.byte	16
+ 547 0206 B1       		.byte	-79
+ 548 0207 38       		.byte	56
+ 549 0208 B2       		.byte	-78
+ 550 0209 40       		.byte	64
+ 551 020a B3       		.byte	-77
+ 552 020b 1F       		.byte	31
+ 553 020c B4       		.byte	-76
+ 554 020d 0F       		.byte	15
+ 555 020e B6       		.byte	-74
+ 556 020f 2C       		.byte	44
+ 557 0210 B8       		.byte	-72
+ 558 0211 08       		.byte	8
+ 559 0212 BA       		.byte	-70
+ 560 0213 20       		.byte	32
+ 561 0214 BB       		.byte	-69
+ 562 0215 0A       		.byte	10
+ 563 0216 BE       		.byte	-66
+ 564 0217 01       		.byte	1
+ 565 0218 D6       		.byte	-42
+ 566 0219 02       		.byte	2
+ 567 021a D7       		.byte	-41
+ 568 021b 13       		.byte	19
+ 569 021c D8       		.byte	-40
+ 570 021d 04       		.byte	4
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 11
+
+
+ 571 021e D9       		.byte	-39
+ 572 021f 04       		.byte	4
+ 573 0220 DB       		.byte	-37
+ 574 0221 04       		.byte	4
+ 575 0222 DC       		.byte	-36
+ 576 0223 11       		.byte	17
+ 577 0224 DD       		.byte	-35
+ 578 0225 10       		.byte	16
+ 579 0226 DF       		.byte	-33
+ 580 0227 01       		.byte	1
+ 581 0228 00       		.byte	0
+ 582 0229 20       		.byte	32
+ 583 022a 02       		.byte	2
+ 584 022b 04       		.byte	4
+ 585 022c 03       		.byte	3
+ 586 022d 22       		.byte	34
+ 587 022e 05       		.byte	5
+ 588 022f 20       		.byte	32
+ 589 0230 08       		.byte	8
+ 590 0231 68       		.byte	104
+ 591 0232 09       		.byte	9
+ 592 0233 08       		.byte	8
+ 593 0234 0A       		.byte	10
+ 594 0235 82       		.byte	-126
+ 595 0236 0E       		.byte	14
+ 596 0237 40       		.byte	64
+ 597 0238 0F       		.byte	15
+ 598 0239 02       		.byte	2
+ 599 023a 10       		.byte	16
+ 600 023b A1       		.byte	-95
+ 601 023c 13       		.byte	19
+ 602 023d 10       		.byte	16
+ 603 023e 16       		.byte	22
+ 604 023f 08       		.byte	8
+ 605 0240 19       		.byte	25
+ 606 0241 15       		.byte	21
+ 607 0242 1A       		.byte	26
+ 608 0243 01       		.byte	1
+ 609 0244 1B       		.byte	27
+ 610 0245 20       		.byte	32
+ 611 0246 1D       		.byte	29
+ 612 0247 40       		.byte	64
+ 613 0248 1E       		.byte	30
+ 614 0249 02       		.byte	2
+ 615 024a 20       		.byte	32
+ 616 024b 60       		.byte	96
+ 617 024c 22       		.byte	34
+ 618 024d 01       		.byte	1
+ 619 024e 27       		.byte	39
+ 620 024f 40       		.byte	64
+ 621 0250 28       		.byte	40
+ 622 0251 40       		.byte	64
+ 623 0252 29       		.byte	41
+ 624 0253 10       		.byte	16
+ 625 0254 2A       		.byte	42
+ 626 0255 04       		.byte	4
+ 627 0256 2B       		.byte	43
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 12
+
+
+ 628 0257 02       		.byte	2
+ 629 0258 2E       		.byte	46
+ 630 0259 40       		.byte	64
+ 631 025a 2F       		.byte	47
+ 632 025b 08       		.byte	8
+ 633 025c 30       		.byte	48
+ 634 025d A0       		.byte	-96
+ 635 025e 31       		.byte	49
+ 636 025f 08       		.byte	8
+ 637 0260 35       		.byte	53
+ 638 0261 20       		.byte	32
+ 639 0262 36       		.byte	54
+ 640 0263 01       		.byte	1
+ 641 0264 37       		.byte	55
+ 642 0265 40       		.byte	64
+ 643 0266 38       		.byte	56
+ 644 0267 04       		.byte	4
+ 645 0268 3A       		.byte	58
+ 646 0269 02       		.byte	2
+ 647 026a 3B       		.byte	59
+ 648 026b 10       		.byte	16
+ 649 026c 3E       		.byte	62
+ 650 026d 88       		.byte	-120
+ 651 026e 59       		.byte	89
+ 652 026f 01       		.byte	1
+ 653 0270 5F       		.byte	95
+ 654 0271 02       		.byte	2
+ 655 0272 65       		.byte	101
+ 656 0273 80       		.byte	-128
+ 657 0274 67       		.byte	103
+ 658 0275 04       		.byte	4
+ 659 0276 69       		.byte	105
+ 660 0277 14       		.byte	20
+ 661 0278 6B       		.byte	107
+ 662 0279 01       		.byte	1
+ 663 027a 70       		.byte	112
+ 664 027b A0       		.byte	-96
+ 665 027c 73       		.byte	115
+ 666 027d 10       		.byte	16
+ 667 027e 87       		.byte	-121
+ 668 027f 04       		.byte	4
+ 669 0280 91       		.byte	-111
+ 670 0281 01       		.byte	1
+ 671 0282 92       		.byte	-110
+ 672 0283 80       		.byte	-128
+ 673 0284 93       		.byte	-109
+ 674 0285 08       		.byte	8
+ 675 0286 95       		.byte	-107
+ 676 0287 14       		.byte	20
+ 677 0288 96       		.byte	-106
+ 678 0289 01       		.byte	1
+ 679 028a 99       		.byte	-103
+ 680 028b 80       		.byte	-128
+ 681 028c 9B       		.byte	-101
+ 682 028d 08       		.byte	8
+ 683 028e 9D       		.byte	-99
+ 684 028f 24       		.byte	36
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 13
+
+
+ 685 0290 9E       		.byte	-98
+ 686 0291 1A       		.byte	26
+ 687 0292 A1       		.byte	-95
+ 688 0293 08       		.byte	8
+ 689 0294 A2       		.byte	-94
+ 690 0295 02       		.byte	2
+ 691 0296 A3       		.byte	-93
+ 692 0297 18       		.byte	24
+ 693 0298 A4       		.byte	-92
+ 694 0299 40       		.byte	64
+ 695 029a A5       		.byte	-91
+ 696 029b 01       		.byte	1
+ 697 029c B5       		.byte	-75
+ 698 029d 01       		.byte	1
+ 699 029e C0       		.byte	-64
+ 700 029f 47       		.byte	71
+ 701 02a0 C2       		.byte	-62
+ 702 02a1 9F       		.byte	-97
+ 703 02a2 C4       		.byte	-60
+ 704 02a3 4F       		.byte	79
+ 705 02a4 CA       		.byte	-54
+ 706 02a5 3F       		.byte	63
+ 707 02a6 CC       		.byte	-52
+ 708 02a7 BE       		.byte	-66
+ 709 02a8 CE       		.byte	-50
+ 710 02a9 57       		.byte	87
+ 711 02aa D6       		.byte	-42
+ 712 02ab 81       		.byte	-127
+ 713 02ac D8       		.byte	-40
+ 714 02ad 30       		.byte	48
+ 715 02ae 00       		.byte	0
+ 716 02af 02       		.byte	2
+ 717 02b0 01       		.byte	1
+ 718 02b1 48       		.byte	72
+ 719 02b2 03       		.byte	3
+ 720 02b3 25       		.byte	37
+ 721 02b4 05       		.byte	5
+ 722 02b5 E0       		.byte	-32
+ 723 02b6 09       		.byte	9
+ 724 02b7 E0       		.byte	-32
+ 725 02b8 0C       		.byte	12
+ 726 02b9 01       		.byte	1
+ 727 02ba 0F       		.byte	15
+ 728 02bb 18       		.byte	24
+ 729 02bc 13       		.byte	19
+ 730 02bd 18       		.byte	24
+ 731 02be 15       		.byte	21
+ 732 02bf 38       		.byte	56
+ 733 02c0 17       		.byte	23
+ 734 02c1 C2       		.byte	-62
+ 735 02c2 19       		.byte	25
+ 736 02c3 18       		.byte	24
+ 737 02c4 1D       		.byte	29
+ 738 02c5 90       		.byte	-112
+ 739 02c6 1F       		.byte	31
+ 740 02c7 24       		.byte	36
+ 741 02c8 24       		.byte	36
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 14
+
+
+ 742 02c9 01       		.byte	1
+ 743 02ca 27       		.byte	39
+ 744 02cb 18       		.byte	24
+ 745 02cc 28       		.byte	40
+ 746 02cd 01       		.byte	1
+ 747 02ce 29       		.byte	41
+ 748 02cf 18       		.byte	24
+ 749 02d0 30       		.byte	48
+ 750 02d1 01       		.byte	1
+ 751 02d2 31       		.byte	49
+ 752 02d3 18       		.byte	24
+ 753 02d4 32       		.byte	50
+ 754 02d5 02       		.byte	2
+ 755 02d6 33       		.byte	51
+ 756 02d7 E0       		.byte	-32
+ 757 02d8 35       		.byte	53
+ 758 02d9 01       		.byte	1
+ 759 02da 37       		.byte	55
+ 760 02db 06       		.byte	6
+ 761 02dc 3E       		.byte	62
+ 762 02dd 04       		.byte	4
+ 763 02de 3F       		.byte	63
+ 764 02df 40       		.byte	64
+ 765 02e0 40       		.byte	64
+ 766 02e1 64       		.byte	100
+ 767 02e2 41       		.byte	65
+ 768 02e3 02       		.byte	2
+ 769 02e4 42       		.byte	66
+ 770 02e5 05       		.byte	5
+ 771 02e6 44       		.byte	68
+ 772 02e7 01       		.byte	1
+ 773 02e8 45       		.byte	69
+ 774 02e9 C0       		.byte	-64
+ 775 02ea 46       		.byte	70
+ 776 02eb E0       		.byte	-32
+ 777 02ec 48       		.byte	72
+ 778 02ed 0A       		.byte	10
+ 779 02ee 49       		.byte	73
+ 780 02ef FF       		.byte	-1
+ 781 02f0 4A       		.byte	74
+ 782 02f1 FF       		.byte	-1
+ 783 02f2 4B       		.byte	75
+ 784 02f3 FF       		.byte	-1
+ 785 02f4 4C       		.byte	76
+ 786 02f5 62       		.byte	98
+ 787 02f6 4D       		.byte	77
+ 788 02f7 A0       		.byte	-96
+ 789 02f8 4E       		.byte	78
+ 790 02f9 F0       		.byte	-16
+ 791 02fa 4F       		.byte	79
+ 792 02fb 41       		.byte	65
+ 793 02fc 50       		.byte	80
+ 794 02fd 0C       		.byte	12
+ 795 02fe 58       		.byte	88
+ 796 02ff 04       		.byte	4
+ 797 0300 59       		.byte	89
+ 798 0301 04       		.byte	4
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 15
+
+
+ 799 0302 5A       		.byte	90
+ 800 0303 04       		.byte	4
+ 801 0304 5C       		.byte	92
+ 802 0305 11       		.byte	17
+ 803 0306 5D       		.byte	93
+ 804 0307 01       		.byte	1
+ 805 0308 5F       		.byte	95
+ 806 0309 01       		.byte	1
+ 807 030a 66       		.byte	102
+ 808 030b 40       		.byte	64
+ 809 030c 67       		.byte	103
+ 810 030d 02       		.byte	2
+ 811 030e 69       		.byte	105
+ 812 030f 10       		.byte	16
+ 813 0310 6A       		.byte	106
+ 814 0311 30       		.byte	48
+ 815 0312 6B       		.byte	107
+ 816 0313 10       		.byte	16
+ 817 0314 6D       		.byte	109
+ 818 0315 10       		.byte	16
+ 819 0316 6E       		.byte	110
+ 820 0317 10       		.byte	16
+ 821 0318 6F       		.byte	111
+ 822 0319 12       		.byte	18
+ 823 031a 80       		.byte	-128
+ 824 031b AC       		.byte	-84
+ 825 031c 82       		.byte	-126
+ 826 031d 43       		.byte	67
+ 827 031e 83       		.byte	-125
+ 828 031f 05       		.byte	5
+ 829 0320 84       		.byte	-124
+ 830 0321 31       		.byte	49
+ 831 0322 86       		.byte	-122
+ 832 0323 4E       		.byte	78
+ 833 0324 88       		.byte	-120
+ 834 0325 31       		.byte	49
+ 835 0326 8A       		.byte	-118
+ 836 0327 C6       		.byte	-58
+ 837 0328 8B       		.byte	-117
+ 838 0329 04       		.byte	4
+ 839 032a 8E       		.byte	-114
+ 840 032b 8C       		.byte	-116
+ 841 032c 94       		.byte	-108
+ 842 032d 30       		.byte	48
+ 843 032e 96       		.byte	-106
+ 844 032f 40       		.byte	64
+ 845 0330 9E       		.byte	-98
+ 846 0331 53       		.byte	83
+ 847 0332 A2       		.byte	-94
+ 848 0333 08       		.byte	8
+ 849 0334 A5       		.byte	-91
+ 850 0335 07       		.byte	7
+ 851 0336 A9       		.byte	-87
+ 852 0337 07       		.byte	7
+ 853 0338 AD       		.byte	-83
+ 854 0339 02       		.byte	2
+ 855 033a AF       		.byte	-81
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 16
+
+
+ 856 033b 04       		.byte	4
+ 857 033c B0       		.byte	-80
+ 858 033d 0F       		.byte	15
+ 859 033e B1       		.byte	-79
+ 860 033f 04       		.byte	4
+ 861 0340 B2       		.byte	-78
+ 862 0341 8A       		.byte	-118
+ 863 0342 B3       		.byte	-77
+ 864 0343 03       		.byte	3
+ 865 0344 B4       		.byte	-76
+ 866 0345 F0       		.byte	-16
+ 867 0346 B9       		.byte	-71
+ 868 0347 08       		.byte	8
+ 869 0348 BA       		.byte	-70
+ 870 0349 2A       		.byte	42
+ 871 034a BF       		.byte	-65
+ 872 034b 05       		.byte	5
+ 873 034c C0       		.byte	-64
+ 874 034d 02       		.byte	2
+ 875 034e C6       		.byte	-58
+ 876 034f 04       		.byte	4
+ 877 0350 C9       		.byte	-55
+ 878 0351 FF       		.byte	-1
+ 879 0352 CA       		.byte	-54
+ 880 0353 07       		.byte	7
+ 881 0354 CB       		.byte	-53
+ 882 0355 FF       		.byte	-1
+ 883 0356 CC       		.byte	-52
+ 884 0357 40       		.byte	64
+ 885 0358 CD       		.byte	-51
+ 886 0359 20       		.byte	32
+ 887 035a CE       		.byte	-50
+ 888 035b F0       		.byte	-16
+ 889 035c CF       		.byte	-49
+ 890 035d 05       		.byte	5
+ 891 035e D0       		.byte	-48
+ 892 035f 08       		.byte	8
+ 893 0360 D4       		.byte	-44
+ 894 0361 01       		.byte	1
+ 895 0362 D8       		.byte	-40
+ 896 0363 04       		.byte	4
+ 897 0364 D9       		.byte	-39
+ 898 0365 04       		.byte	4
+ 899 0366 DA       		.byte	-38
+ 900 0367 04       		.byte	4
+ 901 0368 DB       		.byte	-37
+ 902 0369 04       		.byte	4
+ 903 036a DC       		.byte	-36
+ 904 036b 01       		.byte	1
+ 905 036c DD       		.byte	-35
+ 906 036d 11       		.byte	17
+ 907 036e DF       		.byte	-33
+ 908 036f 01       		.byte	1
+ 909 0370 E0       		.byte	-32
+ 910 0371 40       		.byte	64
+ 911 0372 E1       		.byte	-31
+ 912 0373 A8       		.byte	-88
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 17
+
+
+ 913 0374 E2       		.byte	-30
+ 914 0375 40       		.byte	64
+ 915 0376 E3       		.byte	-29
+ 916 0377 20       		.byte	32
+ 917 0378 03       		.byte	3
+ 918 0379 41       		.byte	65
+ 919 037a 05       		.byte	5
+ 920 037b 45       		.byte	69
+ 921 037c 06       		.byte	6
+ 922 037d 08       		.byte	8
+ 923 037e 0F       		.byte	15
+ 924 037f 22       		.byte	34
+ 925 0380 11       		.byte	17
+ 926 0381 14       		.byte	20
+ 927 0382 16       		.byte	22
+ 928 0383 80       		.byte	-128
+ 929 0384 1B       		.byte	27
+ 930 0385 0A       		.byte	10
+ 931 0386 1D       		.byte	29
+ 932 0387 05       		.byte	5
+ 933 0388 1E       		.byte	30
+ 934 0389 40       		.byte	64
+ 935 038a 1F       		.byte	31
+ 936 038b 14       		.byte	20
+ 937 038c 20       		.byte	32
+ 938 038d 05       		.byte	5
+ 939 038e 21       		.byte	33
+ 940 038f 08       		.byte	8
+ 941 0390 22       		.byte	34
+ 942 0391 02       		.byte	2
+ 943 0392 27       		.byte	39
+ 944 0393 A0       		.byte	-96
+ 945 0394 28       		.byte	40
+ 946 0395 08       		.byte	8
+ 947 0396 2A       		.byte	42
+ 948 0397 04       		.byte	4
+ 949 0398 2D       		.byte	45
+ 950 0399 20       		.byte	32
+ 951 039a 2E       		.byte	46
+ 952 039b 48       		.byte	72
+ 953 039c 2F       		.byte	47
+ 954 039d 14       		.byte	20
+ 955 039e 31       		.byte	49
+ 956 039f 18       		.byte	24
+ 957 03a0 32       		.byte	50
+ 958 03a1 40       		.byte	64
+ 959 03a2 33       		.byte	51
+ 960 03a3 02       		.byte	2
+ 961 03a4 36       		.byte	54
+ 962 03a5 02       		.byte	2
+ 963 03a6 37       		.byte	55
+ 964 03a7 02       		.byte	2
+ 965 03a8 38       		.byte	56
+ 966 03a9 42       		.byte	66
+ 967 03aa 39       		.byte	57
+ 968 03ab 14       		.byte	20
+ 969 03ac 3D       		.byte	61
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 18
+
+
+ 970 03ad 02       		.byte	2
+ 971 03ae 3E       		.byte	62
+ 972 03af 10       		.byte	16
+ 973 03b0 3F       		.byte	63
+ 974 03b1 22       		.byte	34
+ 975 03b2 40       		.byte	64
+ 976 03b3 09       		.byte	9
+ 977 03b4 43       		.byte	67
+ 978 03b5 02       		.byte	2
+ 979 03b6 47       		.byte	71
+ 980 03b7 20       		.byte	32
+ 981 03b8 48       		.byte	72
+ 982 03b9 40       		.byte	64
+ 983 03ba 49       		.byte	73
+ 984 03bb 10       		.byte	16
+ 985 03bc 4B       		.byte	75
+ 986 03bd 80       		.byte	-128
+ 987 03be 4F       		.byte	79
+ 988 03bf 02       		.byte	2
+ 989 03c0 52       		.byte	82
+ 990 03c1 10       		.byte	16
+ 991 03c2 56       		.byte	86
+ 992 03c3 80       		.byte	-128
+ 993 03c4 5D       		.byte	93
+ 994 03c5 01       		.byte	1
+ 995 03c6 5E       		.byte	94
+ 996 03c7 10       		.byte	16
+ 997 03c8 5F       		.byte	95
+ 998 03c9 88       		.byte	-120
+ 999 03ca 84       		.byte	-124
+ 1000 03cb 01       		.byte	1
+ 1001 03cc 85       		.byte	-123
+ 1002 03cd 08       		.byte	8
+ 1003 03ce 87       		.byte	-121
+ 1004 03cf 08       		.byte	8
+ 1005 03d0 8C       		.byte	-116
+ 1006 03d1 21       		.byte	33
+ 1007 03d2 8E       		.byte	-114
+ 1008 03d3 02       		.byte	2
+ 1009 03d4 90       		.byte	-112
+ 1010 03d5 40       		.byte	64
+ 1011 03d6 91       		.byte	-111
+ 1012 03d7 15       		.byte	21
+ 1013 03d8 92       		.byte	-110
+ 1014 03d9 80       		.byte	-128
+ 1015 03da 93       		.byte	-109
+ 1016 03db 80       		.byte	-128
+ 1017 03dc 94       		.byte	-108
+ 1018 03dd 04       		.byte	4
+ 1019 03de 96       		.byte	-106
+ 1020 03df 40       		.byte	64
+ 1021 03e0 98       		.byte	-104
+ 1022 03e1 08       		.byte	8
+ 1023 03e2 99       		.byte	-103
+ 1024 03e3 50       		.byte	80
+ 1025 03e4 9A       		.byte	-102
+ 1026 03e5 04       		.byte	4
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 19
+
+
+ 1027 03e6 9B       		.byte	-101
+ 1028 03e7 49       		.byte	73
+ 1029 03e8 9C       		.byte	-100
+ 1030 03e9 21       		.byte	33
+ 1031 03ea 9D       		.byte	-99
+ 1032 03eb 20       		.byte	32
+ 1033 03ec 9E       		.byte	-98
+ 1034 03ed 9A       		.byte	-102
+ 1035 03ee 9F       		.byte	-97
+ 1036 03ef 02       		.byte	2
+ 1037 03f0 A3       		.byte	-93
+ 1038 03f1 10       		.byte	16
+ 1039 03f2 A4       		.byte	-92
+ 1040 03f3 40       		.byte	64
+ 1041 03f4 A5       		.byte	-91
+ 1042 03f5 01       		.byte	1
+ 1043 03f6 A7       		.byte	-89
+ 1044 03f7 03       		.byte	3
+ 1045 03f8 AE       		.byte	-82
+ 1046 03f9 02       		.byte	2
+ 1047 03fa AF       		.byte	-81
+ 1048 03fb 04       		.byte	4
+ 1049 03fc B2       		.byte	-78
+ 1050 03fd 01       		.byte	1
+ 1051 03fe B3       		.byte	-77
+ 1052 03ff 40       		.byte	64
+ 1053 0400 C0       		.byte	-64
+ 1054 0401 F9       		.byte	-7
+ 1055 0402 C2       		.byte	-62
+ 1056 0403 A0       		.byte	-96
+ 1057 0404 C4       		.byte	-60
+ 1058 0405 16       		.byte	22
+ 1059 0406 CA       		.byte	-54
+ 1060 0407 76       		.byte	118
+ 1061 0408 CC       		.byte	-52
+ 1062 0409 0F       		.byte	15
+ 1063 040a CE       		.byte	-50
+ 1064 040b AF       		.byte	-81
+ 1065 040c D0       		.byte	-48
+ 1066 040d 2D       		.byte	45
+ 1067 040e D2       		.byte	-46
+ 1068 040f 0C       		.byte	12
+ 1069 0410 D6       		.byte	-42
+ 1070 0411 F0       		.byte	-16
+ 1071 0412 E4       		.byte	-28
+ 1072 0413 02       		.byte	2
+ 1073 0414 EE       		.byte	-18
+ 1074 0415 08       		.byte	8
+ 1075 0416 33       		.byte	51
+ 1076 0417 20       		.byte	32
+ 1077 0418 CC       		.byte	-52
+ 1078 0419 10       		.byte	16
+ 1079 041a 57       		.byte	87
+ 1080 041b 08       		.byte	8
+ 1081 041c A7       		.byte	-89
+ 1082 041d 20       		.byte	32
+ 1083 041e D4       		.byte	-44
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 20
+
+
+ 1084 041f 40       		.byte	64
+ 1085 0420 1B       		.byte	27
+ 1086 0421 08       		.byte	8
+ 1087 0422 A7       		.byte	-89
+ 1088 0423 28       		.byte	40
+ 1089 0424 C6       		.byte	-58
+ 1090 0425 10       		.byte	16
+ 1091 0426 6B       		.byte	107
+ 1092 0427 40       		.byte	64
+ 1093 0428 83       		.byte	-125
+ 1094 0429 40       		.byte	64
+ 1095 042a A7       		.byte	-89
+ 1096 042b 20       		.byte	32
+ 1097 042c DC       		.byte	-36
+ 1098 042d 20       		.byte	32
+ 1099 042e E6       		.byte	-26
+ 1100 042f 80       		.byte	-128
+ 1101 0430 50       		.byte	80
+ 1102 0431 10       		.byte	16
+ 1103 0432 D4       		.byte	-44
+ 1104 0433 04       		.byte	4
+ 1105 0434 94       		.byte	-108
+ 1106 0435 20       		.byte	32
+ 1107 0436 94       		.byte	-108
+ 1108 0437 20       		.byte	32
+ 1109 0438 87       		.byte	-121
+ 1110 0439 04       		.byte	4
+ 1111 043a A7       		.byte	-89
+ 1112 043b 20       		.byte	32
+ 1113 043c E6       		.byte	-26
+ 1114 043d 10       		.byte	16
+ 1115 043e 53       		.byte	83
+ 1116 043f 04       		.byte	4
+ 1117 0440 93       		.byte	-109
+ 1118 0441 08       		.byte	8
+ 1119 0442 AF       		.byte	-81
+ 1120 0443 20       		.byte	32
+ 1121 0444 D4       		.byte	-44
+ 1122 0445 20       		.byte	32
+ 1123 0446 EE       		.byte	-18
+ 1124 0447 10       		.byte	16
+ 1125 0448 1F       		.byte	31
+ 1126 0449 80       		.byte	-128
+ 1127 044a B4       		.byte	-76
+ 1128 044b 10       		.byte	16
+ 1129 044c C6       		.byte	-58
+ 1130 044d 01       		.byte	1
+ 1131 044e EC       		.byte	-20
+ 1132 044f 02       		.byte	2
+ 1133 0450 12       		.byte	18
+ 1134 0451 80       		.byte	-128
+ 1135 0452 74       		.byte	116
+ 1136 0453 04       		.byte	4
+ 1137 0454 84       		.byte	-124
+ 1138 0455 04       		.byte	4
+ 1139 0456 8E       		.byte	-114
+ 1140 0457 80       		.byte	-128
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 21
+
+
+ 1141 0458 AF       		.byte	-81
+ 1142 0459 80       		.byte	-128
+ 1143 045a C4       		.byte	-60
+ 1144 045b 08       		.byte	8
+ 1145 045c DE       		.byte	-34
+ 1146 045d 04       		.byte	4
+ 1147 045e E2       		.byte	-30
+ 1148 045f 02       		.byte	2
+ 1149 0460 00       		.byte	0
+ 1150 0461 03       		.byte	3
+ 1151 0462 0C       		.byte	12
+ 1152 0463 03       		.byte	3
+ 1153 0464 10       		.byte	16
+ 1154 0465 02       		.byte	2
+ 1155 0466 1C       		.byte	28
+ 1156 0467 02       		.byte	2
+ 1157 0468 00       		.byte	0
+ 1158 0469 03       		.byte	3
+ 1159 046a 00       		.byte	0
+ 1160 046b 00       		.byte	0
+ 1161 046c 80       		.byte	-128
+ 1162 046d 80       		.byte	-128
+ 1163 046e 00       		.byte	0
+ 1164 046f 00       		.byte	0
+ 1165 0470 40       		.byte	64
+ 1166 0471 00       		.byte	0
+ 1167 0472 00       		.byte	0
+ 1168 0473 00       		.byte	0
+ 1169 0474 00       		.byte	0
+ 1170 0475 01       		.byte	1
+ 1171 0476 01       		.byte	1
+ 1172 0477 00       		.byte	0
+ 1173 0478 01       		.byte	1
+ 1174 0479 00       		.byte	0
+ 1175 047a 04       		.byte	4
+ 1176 047b 00       		.byte	0
+ 1177 047c 80       		.byte	-128
+ 1178 047d 00       		.byte	0
+ 1179 047e 40       		.byte	64
+ 1180 047f 80       		.byte	-128
+ 1181 0480 80       		.byte	-128
+ 1182 0481 00       		.byte	0
+ 1183 0482 80       		.byte	-128
+ 1184 0483 00       		.byte	0
+ 1185 0484 00       		.byte	0
+ 1186 0485 00       		.byte	0
+ 1187 0486 00       		.byte	0
+ 1188 0487 00       		.byte	0
+ 1189 0488 00       		.byte	0
+ 1190 0489 0B       		.byte	11
+ 1191 048a 0B       		.byte	11
+ 1192 048b 00       		.byte	0
+ 1193 048c 00       		.byte	0
+ 1194 048d 00       		.byte	0
+ 1195 048e 80       		.byte	-128
+ 1196 048f 00       		.byte	0
+ 1197 0490 00       		.byte	0
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 22
+
+
+ 1198 0491 02       		.byte	2
+ 1199 0492 02       		.byte	2
+ 1200 0493 00       		.byte	0
+ 1201 0494 02       		.byte	2
+ 1202 0495 00       		.byte	0
+ 1203 0496 00       		.byte	0
+ 1204 0497 00       		.byte	0
+ 1205 0498 00       		.byte	0
+ 1206 0499 01       		.byte	1
+ 1207 049a 01       		.byte	1
+ 1208 049b 00       		.byte	0
+ 1209 049c 01       		.byte	1
+ 1210 049d 00       		.byte	0
+ 1211 049e 00       		.byte	0
+ 1212 049f 00       		.byte	0
+ 1213 04a0 01       		.byte	1
+ 1214 04a1 00       		.byte	0
+ 1215 04a2 18       		.byte	24
+ 1216 04a3 01       		.byte	1
+ 1217              		.section	.cywolatch,"a",%progbits
+ 1218              		.align	2
+ 1219              		.type	cy_meta_wonvl, %object
+ 1220              		.size	cy_meta_wonvl, 4
+ 1221              	cy_meta_wonvl:
+ 1222 0000 BC       		.byte	-68
+ 1223 0001 90       		.byte	-112
+ 1224 0002 AC       		.byte	-84
+ 1225 0003 AF       		.byte	-81
+ 1226              		.section	.cycustnvl,"a",%progbits
+ 1227              		.align	2
+ 1228              		.type	cy_meta_custnvl, %object
+ 1229              		.size	cy_meta_custnvl, 4
+ 1230              	cy_meta_custnvl:
+ 1231 0000 00       		.byte	0
+ 1232 0001 00       		.byte	0
+ 1233 0002 40       		.byte	64
+ 1234 0003 05       		.byte	5
+ 1235              		.section	.cymeta,"a",%progbits
+ 1236              		.align	2
+ 1237              		.type	cy_metadata, %object
+ 1238              		.size	cy_metadata, 12
+ 1239              	cy_metadata:
+ 1240 0000 00       		.byte	0
+ 1241 0001 01       		.byte	1
+ 1242 0002 2E       		.byte	46
+ 1243 0003 16       		.byte	22
+ 1244 0004 10       		.byte	16
+ 1245 0005 69       		.byte	105
+ 1246 0006 00       		.byte	0
+ 1247 0007 01       		.byte	1
+ 1248 0008 00       		.byte	0
+ 1249 0009 00       		.byte	0
+ 1250 000a 00       		.byte	0
+ 1251 000b 00       		.byte	0
+ 1252              		.section	.cyflashprotect,"a",%progbits
+ 1253              		.align	2
+ 1254              		.type	cy_meta_flashprotect, %object
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 23
+
+
+ 1255              		.size	cy_meta_flashprotect, 256
+ 1256              	cy_meta_flashprotect:
+ 1257 0000 00000000 		.space	256
+ 1257      00000000 
+ 1257      00000000 
+ 1257      00000000 
+ 1257      00000000 
+ 1258              		.text
+ 1259              	.Letext0:
+ 1260              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1261              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1262              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 1263              		.section	.debug_info,"",%progbits
+ 1264              	.Ldebug_info0:
+ 1265 0000 32010000 		.4byte	0x132
+ 1266 0004 0400     		.2byte	0x4
+ 1267 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 1268 000a 04       		.byte	0x4
+ 1269 000b 01       		.uleb128 0x1
+ 1270 000c 73000000 		.4byte	.LASF17
+ 1271 0010 0C       		.byte	0xc
+ 1272 0011 CD010000 		.4byte	.LASF18
+ 1273 0015 0A000000 		.4byte	.LASF19
+ 1274 0019 00000000 		.4byte	.Ldebug_line0
+ 1275 001d 02       		.uleb128 0x2
+ 1276 001e 01       		.byte	0x1
+ 1277 001f 06       		.byte	0x6
+ 1278 0020 C1010000 		.4byte	.LASF0
+ 1279 0024 03       		.uleb128 0x3
+ 1280 0025 00000000 		.4byte	.LASF9
+ 1281 0029 01       		.byte	0x1
+ 1282 002a 1D       		.byte	0x1d
+ 1283 002b 2F000000 		.4byte	0x2f
+ 1284 002f 02       		.uleb128 0x2
+ 1285 0030 01       		.byte	0x1
+ 1286 0031 08       		.byte	0x8
+ 1287 0032 65000000 		.4byte	.LASF1
+ 1288 0036 02       		.uleb128 0x2
+ 1289 0037 02       		.byte	0x2
+ 1290 0038 05       		.byte	0x5
+ 1291 0039 AE010000 		.4byte	.LASF2
+ 1292 003d 02       		.uleb128 0x2
+ 1293 003e 02       		.byte	0x2
+ 1294 003f 07       		.byte	0x7
+ 1295 0040 13010000 		.4byte	.LASF3
+ 1296 0044 02       		.uleb128 0x2
+ 1297 0045 04       		.byte	0x4
+ 1298 0046 05       		.byte	0x5
+ 1299 0047 B8010000 		.4byte	.LASF4
+ 1300 004b 02       		.uleb128 0x2
+ 1301 004c 04       		.byte	0x4
+ 1302 004d 07       		.byte	0x7
+ 1303 004e 01010000 		.4byte	.LASF5
+ 1304 0052 02       		.uleb128 0x2
+ 1305 0053 08       		.byte	0x8
+ 1306 0054 05       		.byte	0x5
+ 1307 0055 A0010000 		.4byte	.LASF6
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 24
+
+
+ 1308 0059 02       		.uleb128 0x2
+ 1309 005a 08       		.byte	0x8
+ 1310 005b 07       		.byte	0x7
+ 1311 005c 55010000 		.4byte	.LASF7
+ 1312 0060 04       		.uleb128 0x4
+ 1313 0061 04       		.byte	0x4
+ 1314 0062 05       		.byte	0x5
+ 1315 0063 696E7400 		.ascii	"int\000"
+ 1316 0067 02       		.uleb128 0x2
+ 1317 0068 04       		.byte	0x4
+ 1318 0069 07       		.byte	0x7
+ 1319 006a 48010000 		.4byte	.LASF8
+ 1320 006e 03       		.uleb128 0x3
+ 1321 006f 6C010000 		.4byte	.LASF10
+ 1322 0073 02       		.byte	0x2
+ 1323 0074 18       		.byte	0x18
+ 1324 0075 24000000 		.4byte	0x24
+ 1325 0079 05       		.uleb128 0x5
+ 1326 007a 91000000 		.4byte	0x91
+ 1327 007e 8A000000 		.4byte	0x8a
+ 1328 0082 06       		.uleb128 0x6
+ 1329 0083 8A000000 		.4byte	0x8a
+ 1330 0087 A304     		.2byte	0x4a3
+ 1331 0089 00       		.byte	0
+ 1332 008a 02       		.uleb128 0x2
+ 1333 008b 04       		.byte	0x4
+ 1334 008c 07       		.byte	0x7
+ 1335 008d 97010000 		.4byte	.LASF11
+ 1336 0091 07       		.uleb128 0x7
+ 1337 0092 6E000000 		.4byte	0x6e
+ 1338 0096 08       		.uleb128 0x8
+ 1339 0097 36010000 		.4byte	.LASF12
+ 1340 009b 03       		.byte	0x3
+ 1341 009c 1F       		.byte	0x1f
+ 1342 009d A7000000 		.4byte	0xa7
+ 1343 00a1 05       		.uleb128 0x5
+ 1344 00a2 03       		.byte	0x3
+ 1345 00a3 00000000 		.4byte	cy_meta_configecc
+ 1346 00a7 07       		.uleb128 0x7
+ 1347 00a8 79000000 		.4byte	0x79
+ 1348 00ac 05       		.uleb128 0x5
+ 1349 00ad 91000000 		.4byte	0x91
+ 1350 00b1 BC000000 		.4byte	0xbc
+ 1351 00b5 09       		.uleb128 0x9
+ 1352 00b6 8A000000 		.4byte	0x8a
+ 1353 00ba 03       		.byte	0x3
+ 1354 00bb 00       		.byte	0
+ 1355 00bc 08       		.uleb128 0x8
+ 1356 00bd 26010000 		.4byte	.LASF13
+ 1357 00c1 03       		.byte	0x3
+ 1358 00c2 C1       		.byte	0xc1
+ 1359 00c3 CD000000 		.4byte	0xcd
+ 1360 00c7 05       		.uleb128 0x5
+ 1361 00c8 03       		.byte	0x3
+ 1362 00c9 00000000 		.4byte	cy_meta_custnvl
+ 1363 00cd 07       		.uleb128 0x7
+ 1364 00ce AC000000 		.4byte	0xac
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 25
+
+
+ 1365 00d2 08       		.uleb128 0x8
+ 1366 00d3 89010000 		.4byte	.LASF14
+ 1367 00d7 03       		.byte	0x3
+ 1368 00d8 CF       		.byte	0xcf
+ 1369 00d9 E3000000 		.4byte	0xe3
+ 1370 00dd 05       		.uleb128 0x5
+ 1371 00de 03       		.byte	0x3
+ 1372 00df 00000000 		.4byte	cy_meta_wonvl
+ 1373 00e3 07       		.uleb128 0x7
+ 1374 00e4 AC000000 		.4byte	0xac
+ 1375 00e8 05       		.uleb128 0x5
+ 1376 00e9 91000000 		.4byte	0x91
+ 1377 00ed F8000000 		.4byte	0xf8
+ 1378 00f1 09       		.uleb128 0x9
+ 1379 00f2 8A000000 		.4byte	0x8a
+ 1380 00f6 FF       		.byte	0xff
+ 1381 00f7 00       		.byte	0
+ 1382 00f8 08       		.uleb128 0x8
+ 1383 00f9 74010000 		.4byte	.LASF15
+ 1384 00fd 03       		.byte	0x3
+ 1385 00fe DD       		.byte	0xdd
+ 1386 00ff 09010000 		.4byte	0x109
+ 1387 0103 05       		.uleb128 0x5
+ 1388 0104 03       		.byte	0x3
+ 1389 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1390 0109 07       		.uleb128 0x7
+ 1391 010a E8000000 		.4byte	0xe8
+ 1392 010e 05       		.uleb128 0x5
+ 1393 010f 91000000 		.4byte	0x91
+ 1394 0113 1E010000 		.4byte	0x11e
+ 1395 0117 09       		.uleb128 0x9
+ 1396 0118 8A000000 		.4byte	0x8a
+ 1397 011c 0B       		.byte	0xb
+ 1398 011d 00       		.byte	0
+ 1399 011e 0A       		.uleb128 0xa
+ 1400 011f 59000000 		.4byte	.LASF16
+ 1401 0123 03       		.byte	0x3
+ 1402 0124 0A01     		.2byte	0x10a
+ 1403 0126 30010000 		.4byte	0x130
+ 1404 012a 05       		.uleb128 0x5
+ 1405 012b 03       		.byte	0x3
+ 1406 012c 00000000 		.4byte	cy_metadata
+ 1407 0130 07       		.uleb128 0x7
+ 1408 0131 0E010000 		.4byte	0x10e
+ 1409 0135 00       		.byte	0
+ 1410              		.section	.debug_abbrev,"",%progbits
+ 1411              	.Ldebug_abbrev0:
+ 1412 0000 01       		.uleb128 0x1
+ 1413 0001 11       		.uleb128 0x11
+ 1414 0002 01       		.byte	0x1
+ 1415 0003 25       		.uleb128 0x25
+ 1416 0004 0E       		.uleb128 0xe
+ 1417 0005 13       		.uleb128 0x13
+ 1418 0006 0B       		.uleb128 0xb
+ 1419 0007 03       		.uleb128 0x3
+ 1420 0008 0E       		.uleb128 0xe
+ 1421 0009 1B       		.uleb128 0x1b
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 26
+
+
+ 1422 000a 0E       		.uleb128 0xe
+ 1423 000b 10       		.uleb128 0x10
+ 1424 000c 17       		.uleb128 0x17
+ 1425 000d 00       		.byte	0
+ 1426 000e 00       		.byte	0
+ 1427 000f 02       		.uleb128 0x2
+ 1428 0010 24       		.uleb128 0x24
+ 1429 0011 00       		.byte	0
+ 1430 0012 0B       		.uleb128 0xb
+ 1431 0013 0B       		.uleb128 0xb
+ 1432 0014 3E       		.uleb128 0x3e
+ 1433 0015 0B       		.uleb128 0xb
+ 1434 0016 03       		.uleb128 0x3
+ 1435 0017 0E       		.uleb128 0xe
+ 1436 0018 00       		.byte	0
+ 1437 0019 00       		.byte	0
+ 1438 001a 03       		.uleb128 0x3
+ 1439 001b 16       		.uleb128 0x16
+ 1440 001c 00       		.byte	0
+ 1441 001d 03       		.uleb128 0x3
+ 1442 001e 0E       		.uleb128 0xe
+ 1443 001f 3A       		.uleb128 0x3a
+ 1444 0020 0B       		.uleb128 0xb
+ 1445 0021 3B       		.uleb128 0x3b
+ 1446 0022 0B       		.uleb128 0xb
+ 1447 0023 49       		.uleb128 0x49
+ 1448 0024 13       		.uleb128 0x13
+ 1449 0025 00       		.byte	0
+ 1450 0026 00       		.byte	0
+ 1451 0027 04       		.uleb128 0x4
+ 1452 0028 24       		.uleb128 0x24
+ 1453 0029 00       		.byte	0
+ 1454 002a 0B       		.uleb128 0xb
+ 1455 002b 0B       		.uleb128 0xb
+ 1456 002c 3E       		.uleb128 0x3e
+ 1457 002d 0B       		.uleb128 0xb
+ 1458 002e 03       		.uleb128 0x3
+ 1459 002f 08       		.uleb128 0x8
+ 1460 0030 00       		.byte	0
+ 1461 0031 00       		.byte	0
+ 1462 0032 05       		.uleb128 0x5
+ 1463 0033 01       		.uleb128 0x1
+ 1464 0034 01       		.byte	0x1
+ 1465 0035 49       		.uleb128 0x49
+ 1466 0036 13       		.uleb128 0x13
+ 1467 0037 01       		.uleb128 0x1
+ 1468 0038 13       		.uleb128 0x13
+ 1469 0039 00       		.byte	0
+ 1470 003a 00       		.byte	0
+ 1471 003b 06       		.uleb128 0x6
+ 1472 003c 21       		.uleb128 0x21
+ 1473 003d 00       		.byte	0
+ 1474 003e 49       		.uleb128 0x49
+ 1475 003f 13       		.uleb128 0x13
+ 1476 0040 2F       		.uleb128 0x2f
+ 1477 0041 05       		.uleb128 0x5
+ 1478 0042 00       		.byte	0
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 27
+
+
+ 1479 0043 00       		.byte	0
+ 1480 0044 07       		.uleb128 0x7
+ 1481 0045 26       		.uleb128 0x26
+ 1482 0046 00       		.byte	0
+ 1483 0047 49       		.uleb128 0x49
+ 1484 0048 13       		.uleb128 0x13
+ 1485 0049 00       		.byte	0
+ 1486 004a 00       		.byte	0
+ 1487 004b 08       		.uleb128 0x8
+ 1488 004c 34       		.uleb128 0x34
+ 1489 004d 00       		.byte	0
+ 1490 004e 03       		.uleb128 0x3
+ 1491 004f 0E       		.uleb128 0xe
+ 1492 0050 3A       		.uleb128 0x3a
+ 1493 0051 0B       		.uleb128 0xb
+ 1494 0052 3B       		.uleb128 0x3b
+ 1495 0053 0B       		.uleb128 0xb
+ 1496 0054 49       		.uleb128 0x49
+ 1497 0055 13       		.uleb128 0x13
+ 1498 0056 3F       		.uleb128 0x3f
+ 1499 0057 19       		.uleb128 0x19
+ 1500 0058 02       		.uleb128 0x2
+ 1501 0059 18       		.uleb128 0x18
+ 1502 005a 00       		.byte	0
+ 1503 005b 00       		.byte	0
+ 1504 005c 09       		.uleb128 0x9
+ 1505 005d 21       		.uleb128 0x21
+ 1506 005e 00       		.byte	0
+ 1507 005f 49       		.uleb128 0x49
+ 1508 0060 13       		.uleb128 0x13
+ 1509 0061 2F       		.uleb128 0x2f
+ 1510 0062 0B       		.uleb128 0xb
+ 1511 0063 00       		.byte	0
+ 1512 0064 00       		.byte	0
+ 1513 0065 0A       		.uleb128 0xa
+ 1514 0066 34       		.uleb128 0x34
+ 1515 0067 00       		.byte	0
+ 1516 0068 03       		.uleb128 0x3
+ 1517 0069 0E       		.uleb128 0xe
+ 1518 006a 3A       		.uleb128 0x3a
+ 1519 006b 0B       		.uleb128 0xb
+ 1520 006c 3B       		.uleb128 0x3b
+ 1521 006d 05       		.uleb128 0x5
+ 1522 006e 49       		.uleb128 0x49
+ 1523 006f 13       		.uleb128 0x13
+ 1524 0070 3F       		.uleb128 0x3f
+ 1525 0071 19       		.uleb128 0x19
+ 1526 0072 02       		.uleb128 0x2
+ 1527 0073 18       		.uleb128 0x18
+ 1528 0074 00       		.byte	0
+ 1529 0075 00       		.byte	0
+ 1530 0076 00       		.byte	0
+ 1531              		.section	.debug_aranges,"",%progbits
+ 1532 0000 14000000 		.4byte	0x14
+ 1533 0004 0200     		.2byte	0x2
+ 1534 0006 00000000 		.4byte	.Ldebug_info0
+ 1535 000a 04       		.byte	0x4
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 28
+
+
+ 1536 000b 00       		.byte	0
+ 1537 000c 0000     		.2byte	0
+ 1538 000e 0000     		.2byte	0
+ 1539 0010 00000000 		.4byte	0
+ 1540 0014 00000000 		.4byte	0
+ 1541              		.section	.debug_line,"",%progbits
+ 1542              	.Ldebug_line0:
+ 1543 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1543      02003701 
+ 1543      00000201 
+ 1543      FB0E0D00 
+ 1543      01010101 
+ 1544              	.LASF9:
+ 1545 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1545      6E74385F 
+ 1545      7400
+ 1546              	.LASF19:
+ 1547 000a 433A5C55 		.ascii	"C:\\Users\\noryp\\OneDrive\\Documents\\PSoC Creator"
+ 1547      73657273 
+ 1547      5C6E6F72 
+ 1547      79705C4F 
+ 1547      6E654472 
+ 1548 0038 5C506172 		.ascii	"\\PartIVProject\\ForwardBias.cydsn\000"
+ 1548      74495650 
+ 1548      726F6A65 
+ 1548      63745C46 
+ 1548      6F727761 
+ 1549              	.LASF16:
+ 1550 0059 63795F6D 		.ascii	"cy_metadata\000"
+ 1550      65746164 
+ 1550      61746100 
+ 1551              	.LASF1:
+ 1552 0065 756E7369 		.ascii	"unsigned char\000"
+ 1552      676E6564 
+ 1552      20636861 
+ 1552      7200
+ 1553              	.LASF17:
+ 1554 0073 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1554      43313120 
+ 1554      352E342E 
+ 1554      31203230 
+ 1554      31363036 
+ 1555 00a6 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1555      20726576 
+ 1555      6973696F 
+ 1555      6E203233 
+ 1555      37373135 
+ 1556 00d9 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1556      66756E63 
+ 1556      74696F6E 
+ 1556      2D736563 
+ 1556      74696F6E 
+ 1557              	.LASF5:
+ 1558 0101 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1558      20756E73 
+ 1558      69676E65 
+ 1558      6420696E 
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 29
+
+
+ 1558      7400
+ 1559              	.LASF3:
+ 1560 0113 73686F72 		.ascii	"short unsigned int\000"
+ 1560      7420756E 
+ 1560      7369676E 
+ 1560      65642069 
+ 1560      6E7400
+ 1561              	.LASF13:
+ 1562 0126 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1562      6574615F 
+ 1562      63757374 
+ 1562      6E766C00 
+ 1563              	.LASF12:
+ 1564 0136 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1564      6574615F 
+ 1564      636F6E66 
+ 1564      69676563 
+ 1564      6300
+ 1565              	.LASF8:
+ 1566 0148 756E7369 		.ascii	"unsigned int\000"
+ 1566      676E6564 
+ 1566      20696E74 
+ 1566      00
+ 1567              	.LASF7:
+ 1568 0155 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1568      206C6F6E 
+ 1568      6720756E 
+ 1568      7369676E 
+ 1568      65642069 
+ 1569              	.LASF10:
+ 1570 016c 75696E74 		.ascii	"uint8_t\000"
+ 1570      385F7400 
+ 1571              	.LASF15:
+ 1572 0174 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1572      6574615F 
+ 1572      666C6173 
+ 1572      6870726F 
+ 1572      74656374 
+ 1573              	.LASF14:
+ 1574 0189 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1574      6574615F 
+ 1574      776F6E76 
+ 1574      6C00
+ 1575              	.LASF11:
+ 1576 0197 73697A65 		.ascii	"sizetype\000"
+ 1576      74797065 
+ 1576      00
+ 1577              	.LASF6:
+ 1578 01a0 6C6F6E67 		.ascii	"long long int\000"
+ 1578      206C6F6E 
+ 1578      6720696E 
+ 1578      7400
+ 1579              	.LASF2:
+ 1580 01ae 73686F72 		.ascii	"short int\000"
+ 1580      7420696E 
+ 1580      7400
+ 1581              	.LASF4:
+ARM GAS  C:\Users\noryp\AppData\Local\Temp\ccdw74qN.s 			page 30
+
+
+ 1582 01b8 6C6F6E67 		.ascii	"long int\000"
+ 1582      20696E74 
+ 1582      00
+ 1583              	.LASF0:
+ 1584 01c1 7369676E 		.ascii	"signed char\000"
+ 1584      65642063 
+ 1584      68617200 
+ 1585              	.LASF18:
+ 1586 01cd 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1586      72617465 
+ 1586      645F536F 
+ 1586      75726365 
+ 1586      5C50536F 
+ 1587              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
